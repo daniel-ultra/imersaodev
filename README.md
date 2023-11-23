@@ -1,3 +1,5 @@
 # Olá, pessoal.
-Readme do repositório. Instruões abaixo.
+Readme do repositório. Instruções abaixo.
 Mudança 01.
+
+Informação nova!
