@@ -1,5 +1,1 @@
-# Olá, pessoal.
-Readme do repositório. Instruções abaixo.
-Mudança 01.
-
-Informação nova!
+# Repositório para as aulas da imersão dev Alura - Javascript
