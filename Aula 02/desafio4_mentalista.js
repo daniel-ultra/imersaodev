@@ -1,3 +1,5 @@
+// Desafio 4: Escrever o código utilizando "while" em vez de "for".
+
 function randomRange(myMin, myMax) {
   return Math.floor(Math.random() * (myMax - myMin + 1)) + myMin;
 };
