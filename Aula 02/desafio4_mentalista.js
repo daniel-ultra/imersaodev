@@ -14,7 +14,7 @@ while(numeroSecreto != numeroEscolhido) {
   if(numeroSecreto == numeroEscolhido) {
     alert("Monstro!!!! Você acertou!")
     rodadas = rodadas + 1
-  } else if(isNaN(numeroEscolhido) || numeroEscolhido === null || numeroEscolhido.trim() === '') {
+  } else if(isNaN(numeroEscolhido) || numeroEscolhido === null || numeroEscolhido.trim() === '' || numeroEscolhido <= 0) {
     alert("Você não escolheu um número! Esta rodada não será contabilizada.")
   } else if(numeroSecreto > numeroEscolhido) {
     alert("Errou! " + numeroEscolhido + " é menor que o número secreto.")
