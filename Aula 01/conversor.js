@@ -19,7 +19,7 @@ var distAnoLuz = parseFloat(
   )
 );
 
-while (isNaN(distAnoLuz) === true) {
+while (isNaN(distAnoLuz)) {
   var distAnoLuz = prompt(
     "Você não inseriu um número válido. Por favor, tente novamente."
   );
