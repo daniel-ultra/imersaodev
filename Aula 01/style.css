@@ -1,1 +1,47 @@
+body {
+  font-family: "Lucida Console", monospace;
+  text-align: center;
+  background-image: url("https://wallpapers.com/images/hd/2001-a-space-odyssey-1920-x-1080-7f4hkgtw9m5ydv7s.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 63px;
+  font-size: 40px;
+}
+
+.page-title {
+  color: #c31c1c;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+  padding: 145px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+}
 
