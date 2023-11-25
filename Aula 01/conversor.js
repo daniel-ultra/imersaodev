@@ -12,11 +12,9 @@ function majNomeUsuario(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
-var maiusculaNomeUsuario = majNomeUsuario(nomeUsuario);
-
 var distAnoLuz = parseFloat(
   prompt(
-    maiusculaNomeUsuario +
+    majNomeUsuario(nomeUsuario) +
       ", digite um valor em anos-luz e o converteremos para metros!"
   )
 );
@@ -32,7 +30,7 @@ var conversaoAnosLuzMetros = 9.461 * 10 ** 15;
 var distanciaEmMetros = distAnoLuz * conversaoAnosLuzMetros;
 
 alert(
-  maiusculaNomeUsuario +
+  majNomeUsuario(nomeUsuario) +
     ", temos seu resultado! A distância da estrela Sirius para a Terra é de " +
     distanciaEmMetros +
     " metros."
