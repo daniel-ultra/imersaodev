@@ -8,7 +8,7 @@ var numeroSecreto = randomRange(1, 1000)
 
 var rodadas = 0
 
-for(i = 0; numeroSecreto == numeroEscolhido || rodadas == 10; i++) {
+for(i = 0; numeroSecreto != numeroEscolhido && rodadas < 10; i++) {
   var numeroEscolhido = prompt("Escolha um número entre 1 e 1000. Você terá no máximo 10 tentaivas para acertar o número!")
   if(isNaN(numeroEscolhido) || numeroEscolhido === null || numeroEscolhido.trim() === "" || numeroEscolhido <= 0) {
     alert("Você não escolheu um número! Esta rodada não será contabilizada.");
