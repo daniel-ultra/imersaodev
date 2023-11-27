@@ -11,11 +11,14 @@ var nomeFilmes = ["La Grande Illusion", "Arrival", ""]
 
 var i = 0;
 while (i < listaFilmes.length) {
-  if(listaFilmes[i].endsWith("jpeg") || listaFilmes[i].endsWith("jpg")) {
+  if (listaFilmes[i].endsWith("jpeg") || listaFilmes[i].endsWith("jpg")) {
     document.write("<img src=" + listaFilmes[i] + ">");
-    if(nomeFilmes[i] === null || nomeFilmes[i].trim() === "") {
-    document.write("O nome do filme não foi inserido!");
-  }} else {
-    document.write("A imagem inserida não tem um formato válido.")
-  } i++
+    document.write("<p>" + nomeFilmes[i] + "</p>");
+    if (!nomeFilmes[i] || nomeFilmes[i].trim() === "") {
+      document.write(" O nome do filme não foi inserido!<br>");
+    }
+  } else {
+    document.write("<p> A imagem inserida não tem um formato válido para o filme: " + nomeFilmes[i] + "<br> </p>");
+  }
+  i++;
 }
