@@ -15,7 +15,7 @@ while (i < listaFilmes.length) {
     document.write("<img src=" + listaFilmes[i] + ">");
     if(nomeFilmes[i] === null || nomeFilmes[i].trim() === "") {
     document.write("O nome do filme não foi inserido!");
-  } else {
+  }} else {
     document.write("A imagem inserida não tem um formato válido.")
   } i++
 }
