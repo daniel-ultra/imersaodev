@@ -6,9 +6,16 @@ var listaFilmes = [
   "https://pics.filmaffinity.com/Napoleon-576065052-mmed.jpg"
 ];
 
+var nomeFilmes = ["La Grande Illusion", "Arrival", "Napoleon"]
+
 for (var i = 0; i < listaFilmes.length; i++) {
   if (listaFilmes[i].endsWith("jpeg") || listaFilmes[i].endsWith("jpg")) {
     document.write("<img src=" + listaFilmes[i] + ">");
+    document.write("<p>" + nomeFilmes[i] + "</p>");
+
+    if(nomeFilmes[i].trim = "") {
+      document.write("O nome do filme não foi inserido!");
+    }  
   } else {
     document.write(
       "<p> A imagem " +
