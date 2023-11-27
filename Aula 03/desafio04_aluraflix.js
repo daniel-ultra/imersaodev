@@ -8,10 +8,20 @@ var listaFilmes = [
 
 var nomeFilmes = ["La Grande Illusion", "Arrival", ""];
 
+var filmesAdicionados = {}; // Objeto para armazenar filmes adicionados
+
 for (var i = 0; i < listaFilmes.length; i++) {
   if (listaFilmes[i].endsWith("jpeg") || listaFilmes[i].endsWith("jpg")) {
-    document.write("<img src=" + listaFilmes[i] + ">");
-    document.write("<p>" + nomeFilmes[i] + "</p>");
+    // Verifica se o filme já foi adicionado
+    if (!filmesAdicionados[nomeFilmes[i]]) {
+      document.write("<img src=" + listaFilmes[i] + ">");
+      document.write("<p>" + nomeFilmes[i] + "</p>");
+      
+      // Marca o filme como adicionado no objeto de filmes adicionados
+      filmesAdicionados[nomeFilmes[i]] = true;
+    } else {
+      document.write("<p>O filme " + nomeFilmes[i] + " já foi adicionado.</p>");
+    }
   } else {
     document.write(
       "<p> A imagem " +
