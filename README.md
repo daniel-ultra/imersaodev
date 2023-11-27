@@ -16,3 +16,11 @@
 <p align="center">
   <img src="./imagens/aula02.png">
 </p>
+
+## Aula 3
+- Desafio 1: Condicionar a aparição do filme no catálogo a que ao arquivo de imagem inserido termine em .jpeg ou .jpg:
+- Desafio 2: Tentar implementar outras versões da estrutura de repetição que fizemos com for, como por exemplo com foreach ou while.
+- Desafio 3: Criar uma lista paralela para exibição dos nomes dos filmes:
+- Desafio 4: Criar uma condição para não adicionar filmes repetidos, caso eles já tenham sido adicionados anteriormente.
+- Desafio 5: Criar um campo e um botão para adicionar a imagem diretamente na tela, em vez de adicionar no código.
+  
