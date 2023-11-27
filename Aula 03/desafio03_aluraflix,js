@@ -13,7 +13,7 @@ var i = 0;
 while (i < listaFilmes.length) {
   if(listaFilmes[i].endsWith("jpeg") || listaFilmes[i].endsWith("jpg")) {
     document.write("<img src=" + listaFilmes[i] + ">");
-    if(nomeFilmes[i] === null || nomeFilmes[i].trim() === "") 
+    if(nomeFilmes[i] === null || nomeFilmes[i].trim() === "") {
     document.write("O nome do filme não foi inserido!");
   } else {
     document.write("A imagem inserida não tem um formato válido.")
