@@ -45,7 +45,7 @@ function adicionarFilme() {
 
   var elementoListaFilmes = document.getElementById("listaFilmes");
   var novoConteudo =
-  // Desafio 
+  // Desafio 03: Fazer com que, ao clicar na imagem do filme, o usuário seja redirecionado para o trailer do filme no YT.
     `<a href=" ${trailerVisto} "><img src=" ${filmeVisto} "></a>` +
     "<p>" +
     nomeFilmeVisto +
