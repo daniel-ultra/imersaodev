@@ -45,7 +45,11 @@ function adicionarFilme() {
 
   var elementoListaFilmes = document.getElementById("listaFilmes");
   var novoConteudo =
-    "<img src=" + filmeVisto + ">" + "<p>" + nomeFilmeVisto + "</p>";
+  // Desafio 
+    `<a href=" ${trailerVisto} "><img src=" ${filmeVisto} "></a>` +
+    "<p>" +
+    nomeFilmeVisto +
+    "</p>";
 
   listaFilmes.push(novoConteudo);
   elementoListaFilmes.innerHTML = listaFilmes.join("");
