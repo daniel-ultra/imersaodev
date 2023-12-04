@@ -23,4 +23,15 @@
 - Desafio 3: Criar uma lista paralela para exibição dos nomes dos filmes:
 - Desafio 4: Criar uma condição para não adicionar filmes repetidos, caso eles já tenham sido adicionados anteriormente.
 - Desafio 5: Criar um campo e um botão para adicionar a imagem diretamente na tela, em vez de adicionar no código.
-  
+<p align="center">
+  <img src="./imagens/aula03.png">
+</p>  
+
+## Aula 4
+- Desafio 1: Condicionar a aceitação do conteúdo digitado no input a um formato válido de imagem.
+- Desafio 1 (sessão "Desafios desta aula" na página da imersão): Criar um botão para remover um filme na tela;
+- Desafio 2: Fazer com que, ao clicar na imagem do filme, o usuário seja redirecionado para o trailer do filme no YT.
+- Desafio 3: Manter uma lista de filmes.
+<p align="center">
+  <img src="./imagens/aula04.png">
+</p>  
