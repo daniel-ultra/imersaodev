@@ -54,9 +54,12 @@ function adicionarFilme() {
   listaFilmes.push(novoConteudo);
   elementoListaFilmes.innerHTML = listaFilmes.join("");
 
-  document.getElementById("filme").value = "";
-  document.getElementById("nomeFilme").value = "";
-  document.getElementById("trailerVisto").value = "";
+  function limparCampos () {
+    document.getElementById("filme").value = "";
+    document.getElementById("nomeFilme").value = "";
+    document.getElementById("trailerVisto").value = "";
+  }
+  limparCampos()
 }
 
 // Desafio 01 (na descrição da aula): Criar um botão para remover um filme na tela
