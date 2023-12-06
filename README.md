@@ -35,3 +35,11 @@
 <p align="center">
   <img src="./imagens/aula04.png">
 </p>  
+
+## Aula 5
+- Desafio 1: Adicionar mais jogadores; fazer uma lista com os jogadores; aplicar um laço "for" na function atualizarTabela() para exibir as células de cada jogador;
+- Desafio 2: Personalizar a tabela para um jogo de sua preferência (adicionar mais parâmetros e botões).
+- Desafio 3: Compartilhar seu projeto.
+<p align="center">
+  <img src="./imagens/aula05.png">
+</p>  
