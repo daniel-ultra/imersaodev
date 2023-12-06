@@ -1,0 +1,48 @@
+<html>
+
+<head>
+  <title>
+    Imersão Dev
+  </title>
+</head>
+
+<body>
+  <h1>Classificação Alura</h1>
+
+  <table style="width:100%">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Vitórias</th>
+        <th>Empates</th>
+        <th>Derrotas</th>
+        <th>Pontos</th>
+        <th colspan="3">Ações</th>
+      </tr>
+    </thead>
+    <tbody id="tabelaJogadores">
+      <tr>
+        <td>Paulo</td>
+        <td id="vitPaulo"></td>
+        <td id="empPaulo"></td>
+        <td id="derPaulo"></td>
+        <td id="pontosPaulo"></td>
+        <td><button onClick="adicionarVitoria('Paulo')">Vitória</button></td>
+        <td><button onClick="adicionarEmpate('Paulo')">Empate</button></td>
+        <td><button onClick="adicionarDerrota('Paulo')">Derrota</button></td>
+      </tr>
+      <tr>
+        <td>Rafa</td>
+        <td id="vitRafa"></td>
+        <td id="empRafa"></td>
+        <td id="derRafa"></td>
+        <td id="pontosRafa"></td>
+        <td><button onClick="adicionarVitoria('Rafa')">Vitória</button></td>
+        <td><button onClick="adicionarEmpate('Rafa')">Empate</button></td>
+        <td><button onClick="adicionarDerrota('Rafa')">Derrota</button></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
